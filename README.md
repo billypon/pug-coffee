@@ -59,6 +59,6 @@ Render with script tag.
 
 Output:
 
-```javascript
+```html
 <script>alert('hello');</script>
 ```
