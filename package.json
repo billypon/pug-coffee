@@ -1,0 +1,11 @@
+{
+  "name": "pug-coffee",
+  "version": "0.0.1",
+  "description": "Pug filter for coffeescript",
+  "author": "billypon <billypon@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billypon/pug-coffee.git"
+  }
+}
