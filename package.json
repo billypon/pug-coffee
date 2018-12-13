@@ -9,6 +9,7 @@
     "url": "git+https://github.com/billypon/pug-coffee.git"
   },
   "devDependencies": {
-    "uglify-js": "^3.4.9"
+    "coffeescript": "^2.3.2",
+    "uglify-es": "^3.3.9"
   }
 }
