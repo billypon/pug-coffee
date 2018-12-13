@@ -10,7 +10,7 @@ module.exports = function (callback) {
     }
     let js = coffee.compile(str, coffeeOptions);
 
-    if (options.uglify === undefined or options.uglify) {
+    if (options.uglify === undefined || options.uglify) {
       const result = uglify.minify(js, { fromString: true });
       if (result.error) {
         throw result.error;
