@@ -1,5 +1,13 @@
 ## Setup filter
 
+Install dependencies
+
+```sh
+npm install coffeescript uglify-es
+```
+
+Set as pug filter
+
 ```javascript
 const pug = require('pug');
 pug.filters.coffee = require('pug-coffee')();
