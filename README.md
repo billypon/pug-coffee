@@ -16,8 +16,8 @@ pug.filters.coffee = require('pug-coffee')();
 Set filename for coffeescript when render
 
 ```javascript
-pug.filters.coffee = require('pug-coffee')(function (coffeeOptions, options) {
-  coffeeOptions.filename = options.filename;
+pug.filters.coffee = require('pug-coffee')(function (options, args) {
+  options.filename = args.filename;
 });
 ```
 
