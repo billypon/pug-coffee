@@ -1,6 +1,6 @@
 {
   "name": "pug-coffee",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Pug filter for coffeescript",
   "author": "billypon <billypon@gmail.com>",
   "license": "MIT",
